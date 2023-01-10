@@ -1,5 +1,0 @@
-[22,27,16,2,18,6] -> Insertion Sort
-[16,22,27,2,18,6] -> 27, 22  ile karşılartırılır. 27>22 olduğu için yerinde kalır. 16, 27 ile karşılaştırılır. 16<27 olduğu için bir sola geçer. 16,22 ile karşılaştırılır. 16<22 olduğu için listenin başına geçer.
-[2,16,22,27,18,6] -> 2, 27 ile karşılaştırılır. 2<27 olduğu için bir sola geçer. 2, 22 ile karşılaştırılır. 2<22, 2 bir sola geçer. 2<16, 2 listenin başına geçer.
-[2,16,18,22,27,6] -> 18<27, 18<22, 18>16, 18 iki sola geçer ve durur.
-[2,6,16,18,22,27] -> 6<27, 6<22, 6<18, 6<16, 6>2, 6 dört sola geçer ve durur.
