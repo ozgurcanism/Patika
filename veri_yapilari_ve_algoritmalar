@@ -1,0 +1,24 @@
+#Insertion Sort
+[22,27,16,2,18,6]
+# 27, 22  ile karşılartırılır. 27>22 olduğu için yerinde kalır. 16, 27 ile karşılaştırılır. 16<27 olduğu için bir sola geçer. 16,22 ile karşılaştırılır. 16<22 olduğu için listenin başına geçer.
+[2,16,22,27,18,6]
+# 2, 27 ile karşılaştırılır. 2<27 olduğu için bir sola geçer. 2, 22 ile karşılaştırılır. 2<22, 2 bir sola geçer. 2<16, 2 listenin başına geçer.
+[16,22,27,2,18,6]
+# 18<27, 18<22, 18>16, 18 iki sola geçer ve durur.
+[2,16,18,22,27,6]
+# 6<27, 6<22, 6<18, 6<16, 6>2, 6 dört sola geçer ve durur.
+[2,6,16,18,22,27]
+
+#Big-O gösterimi O(n^2)
+
+#Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+18 Average case kapsamına girer.
+
+#Selection Sort'a göre ilk 4 adım
+[7,3,5,8,2,9,4,15,6]
+#3<7 3 bir sola kayar.
+[3,7,5,8,2,9,4,15,6]
+#5<7, 5>3, 5 bir sola kayar.
+[3,5,7,8,2,9,4,15,6]
+#2<8, 2<7, 2<5, 2<3, 2 en başa kayar.
+[2,3,5,7,8,9,4,15,6]
