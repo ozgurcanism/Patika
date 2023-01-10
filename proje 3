@@ -1,0 +1,18 @@
+#[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+#Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+#root 6 dır
+#diziyi 6 dan itibaren ikiye böleriz.
+#root=6 olur.
+#dizi sıralıymış gibi hareket ederek dizi elemanlarını soldan sağa teker teker 6 ile karşılaştırarak büyükse sağa, küçükse sola yazarız.
+7>6, 5>6, 1<6, 8>6, 3<6, 0<6, 9>6, 4<6 , 2<6
+
+         6
+        /  \
+       5    7
+      /      \
+     1        8
+   /   \        \
+  0     3        9
+       /  \
+      2    4     
